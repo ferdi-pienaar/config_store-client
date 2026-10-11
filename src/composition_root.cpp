@@ -8,7 +8,7 @@
 #include "client.h"
 #include "operator.h"
 
-const cfg_mgr::Descriptor * get_base_descriptor();
+cfg_mgr::Descriptor * get_base_descriptor();
 
 int main(int argc, char **argv)
 {
